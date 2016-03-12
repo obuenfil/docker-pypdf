@@ -22,7 +22,7 @@ RUN apt-get install -y tesseract-ocr tesseract-ocr-eng
 # Install pypdfocr
 RUN apt-get install -y libjpeg-dev zlib1g-dev
 RUN apt-get install -y python-pip python-dev imagemagick poppler-utils
-RUN pip install git+https://github.com/virantha/pypdfocr
+RUN pip install git+https://github.com/obuenfil/pypdfocr
 
 # Make folder
 RUN mkdir /data
