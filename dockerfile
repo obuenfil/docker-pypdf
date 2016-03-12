@@ -35,7 +35,7 @@ RUN apt-get purge --auto-remove -y autoconf \
                                       libleptonica-dev \
                                       libtool
 RUN rm -rf /var/cache/apk/*
-
+ 
 
 #ENTRYPOINT ["ls", "-l", "/data"]
 ENTRYPOINT ["pypdfocr", "-w", "/data", "-f", "-c", "config.yaml"]
