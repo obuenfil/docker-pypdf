@@ -38,4 +38,4 @@ RUN rm -rf /var/cache/apk/*
  
 
 #ENTRYPOINT ["ls", "-l", "/data"]
-ENTRYPOINT ["pypdfocr", "-w", "/data/inbox", "-f", "-c", "/data/config.yaml"]
+ENTRYPOINT ["pypdfocr", "-w", "/data", "-f", "-c", "/data/config.yaml"]
