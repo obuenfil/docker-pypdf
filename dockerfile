@@ -17,7 +17,7 @@ RUN apt-get install -y autoconf \
                           libtool
 
 # Install Tesseract
-RUN apt-get install -y tesseract-ocr tesseract-ocr-eng
+RUN apt-get install -y tesseract-ocr tesseract-ocr-spa
 
 # Install pypdfocr
 RUN apt-get install -y libjpeg-dev zlib1g-dev
